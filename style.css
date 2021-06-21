@@ -29,6 +29,40 @@
     height: 100%;
     width: 100%;
 }
-
-.drawing-container {
+.sticky {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    height: 200px;
+    width: 250px;
+    /* background: bisque; */
+}
+.sticky-header
+{
+    height: 13%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: burlywood;
+}
+.sticky-header div{
+    margin-right: 10px;
+    height: 70%;
+    width: 7%;
+    border-radius: 50px;
+}
+.minimise
+{
+    background: lightskyblue;
+}
+.close{
+    background: lightcoral;
+}
+.sticky-content
+{
+    height: 87%;
+    background: lightsteelblue;
+    border-bottom-right-radius: 20px;
+    outline: none;
+    padding: 10px;
 }

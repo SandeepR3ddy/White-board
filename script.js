@@ -4,7 +4,7 @@ canvas.height = window.innerHeight - 100 ;
 window.addEventListener("resize", function(e)
 {
     canvas.width = window.innerWidth ;
-    canvas.height = window.innerHeight - 100 ;    
+    canvas.height = window.innerHeight - 100 ; 
 })
 const ctx = canvas.getContext("2d");
 let isPenDown = false;

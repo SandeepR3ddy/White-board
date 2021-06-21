@@ -14,13 +14,21 @@
        <div class="tools"><img src="./NewIcons/Eraser.svg" alt=""></div>
        <div class="tools" id = "undo"><img src="./NewIcons/Undo.svg" alt=""></div>
        <div class="tools" id = "redo"><img src="./NewIcons/Redo.svg" alt=""></div>
-       <div class="tools"><img src="./NewIcons/StickyNote.svg" alt=""></div>
+       <div class="tools" id = "sticky"><img src="./NewIcons/StickyNote.svg" alt=""></div>
        <div class="tools"><img src="./NewIcons/Photo.svg" alt=""></div>
        <div class="tools"><img src="./NewIcons/Download.svg" alt=""></div>
    </div>
 </div>
 <div class="drawing-container">
-    .
+     <div class="sticky">
+        <div class="sticky-header">
+            <div class="minimise">
+            </div>
+            <div class="close">
+            </div>
+        </div>
+        <div class="sticky-content" contenteditable="true"></div>
+    </div> 
     <canvas id = "canvas"></canvas>
 </div>
 <script src="script.js"></script>
