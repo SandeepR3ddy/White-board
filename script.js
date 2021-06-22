@@ -5,6 +5,7 @@ window.addEventListener("resize", function(e)
 {
     canvas.width = window.innerWidth ;
     canvas.height = window.innerHeight - 100 ; 
+    drawLinesFromDB();
 })
 const ctx = canvas.getContext("2d");
 let isPenDown = false;

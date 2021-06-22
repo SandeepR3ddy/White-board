@@ -1,8 +1,10 @@
 let sticky = document.querySelector("#sticky");
-sticky.addEventListener("click",addSticky);
-function addSticky(e)
+sticky.addEventListener("click",function(e)
 {
-    //console.log(e);
+    addSticky();
+});
+function addSticky(imageElement)
+{   
     let stickyDiv = document.createElement("div");
     stickyDiv.classList.add("sticky");
     stickyDiv.innerHTML = `<div class="sticky">
@@ -12,7 +14,7 @@ function addSticky(e)
         <div class="close">
         </div>
     </div>
-    <div class="sticky-content" contenteditable="true"></div>
+ <div class="sticky-content" contenteditable="true"></div>
 </div> ` ;
     let minimise = stickyDiv.querySelector(".minimise");
     let close = stickyDiv.querySelector(".close");
